@@ -9,7 +9,7 @@ function assert(test, testDescription) {
 {
     let string = ""
     let result = stringCalculator.add(string)
-    assert(result === 0, "should return 0 when empty string")
+    assert(result === 1, "should return 0 when empty string")
 }
 
 {
